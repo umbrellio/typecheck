@@ -1,7 +1,4 @@
-# typecheck
-
-[![Build Status](https://travis-ci.org/umbrellio/typecheck.svg?branch=master)](https://travis-ci.org/umbrellio/typecheck)
-[![Coverage Status](https://coveralls.io/repos/github/umbrellio/typecheck/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/typecheck?branch=master)
+# typecheck [![Build Status](https://travis-ci.org/umbrellio/typecheck.svg?branch=master)](https://travis-ci.org/umbrellio/typecheck) [![Coverage Status](https://coveralls.io/repos/github/umbrellio/typecheck/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/typecheck?branch=master)
 
 Simple, strict, extensible runtime type checker for JavaScript.
 
@@ -102,3 +99,19 @@ const userType = T.Struct({
 - More convenient composition for custom types
 - Success/Failure API
 - Type coercion API?
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/umbrellio/typecheck.
+
+## License
+
+Released under MIT License.
+
+## Authors
+
+Created by Alexander Komarov.
+
+<a href="https://github.com/umbrellio/">
+<img style="float: left;" src="https://umbrellio.github.io/Umbrellio/supported_by_umbrellio.svg" alt="Supported by Umbrellio" width="439" height="72">
+</a>
