@@ -1,0 +1,44 @@
+{
+  "name": "typecheck",
+  "description": "Simple, strict, extensible runtime type checker for JavaScript",
+  "version": "0.1.0",
+  "author": "Alexander Komarov <ak@akxcv.com>",
+  "repository": "umbrellio/typecheck",
+  "license": "MIT",
+  "main": "dist/typecheck.cjs.js",
+  "modules": "dist/typecheck.es.js",
+  "unpkg": "dist/typecheck.iife.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "type",
+    "check",
+    "typecheck",
+    "type-check"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "core-js": "3",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.3.0",
+    "eslint-config-umbrellio": "^5.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^24.9.0",
+    "rollup": "^1.21.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint lib/**/*.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  }
+}
