@@ -1,5 +1,5 @@
 {
-  "name": "typecheck",
+  "name": "@umbrellio/typecheck",
   "description": "Simple, strict, extensible runtime type checker for JavaScript",
   "version": "0.1.0",
   "author": "Alexander Komarov <ak@akxcv.com>",
