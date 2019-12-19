@@ -1,7 +1,7 @@
 {
   "name": "@umbrellio/typecheck",
   "description": "Simple, strict, extensible runtime type checker for JavaScript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Alexander Komarov <ak@akxcv.com>",
   "repository": "umbrellio/typecheck",
   "license": "MIT",
