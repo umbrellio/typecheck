@@ -8,7 +8,7 @@ Simple, strict, extensible runtime type checker for JavaScript.
 import T from '@umbrellio/typecheck'
 
 // define a type
-const userType = T.Schema({
+const userType = T.Struct({
   email: T.String,
   password: T.String,
   age: T.Option(T.Number),
@@ -74,7 +74,7 @@ T.Struct({ email: T.String, age: T.Option(T.Number) }) // { email: 'ivan@ivan.ru
 Signature: `T.Sum(...types)`
 
 ```javascript
-T.Sum(T.Number, T.String, T.Schema({ name: T.String })) // 69, '69', { name: 'ivan' }
+T.Sum(T.Number, T.String, T.Struct({ name: T.String })) // 69, '69', { name: 'ivan' }
 ```
 
 ## Advanced usage
