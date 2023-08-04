@@ -1,4 +1,4 @@
-# typecheck [![Build Status](https://travis-ci.org/umbrellio/typecheck.svg?branch=master)](https://travis-ci.org/umbrellio/typecheck) [![Coverage Status](https://coveralls.io/repos/github/umbrellio/typecheck/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/typecheck?branch=master)
+# typecheck
 
 Simple, strict, extensible runtime type checker for JavaScript.
 
