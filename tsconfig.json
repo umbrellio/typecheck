@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "lib",
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "target": "es2020",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "moduleDetection": "force",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": false,
+    "declaration": true,
+    "stripInternal": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": false,
+    "preserveConstEnums": true
+  },
+  "include": ["lib"],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "experimentalResolver": true
+  }
+}
