@@ -12,11 +12,16 @@ const userType = T.Struct({
   email: T.String,
   password: T.String,
   age: T.Option(T.Number),
-  role: T.Sum("admin", "support"),
+  role: T.Sum('admin', 'support'),
 })
 
 // run a type check
-T.check(userType, { email: 'cow@cow.cow', password: '12345', age: 12, role: "admin" }) // => true
+T.check(userType, {
+  email: 'cow@cow.cow',
+  password: '12345',
+  age: 12,
+  role: 'admin',
+}) // => true
 ```
 
 ## Installation
@@ -27,11 +32,6 @@ Install with yarn:
 $ yarn add @umbrellio/typecheck
 # or with npm:
 $ npm i -S @umbrellio/typecheck
-```
-
-You can also try the library out via [unpkg](https://unpkg.com):
-```html
-<script src="https://unpkg.com/typecheck"></script>
 ```
 
 ## Built-in type reference
@@ -92,13 +92,6 @@ const userType = T.Struct({
   age: T.Option(Age),
 })
 ```
-
-## TODO
-
-- Global type registry (aka custom types inside the `T` object)
-- More convenient composition for custom types
-- Success/Failure API
-- Type coercion API?
 
 ## Contributing
 
